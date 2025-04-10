@@ -1,9 +1,9 @@
 // App.js
 import React, { useState, useCallback } from "react";
 import axios from "axios";
-import "./App.css"; // Ensure App.css is linked
+import "./App.css"; 
 
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://cloud-123.onrender.com"
 
 // Language list for Translation/TTS
 const LANGUAGES_TRANSLATE_TTS = [
